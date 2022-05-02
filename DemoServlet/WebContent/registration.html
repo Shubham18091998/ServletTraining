@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registration</title>
+</head>
+<body>
+	<div align="justify">
+	<h1>Registration</h1>
+	<form method="POST" action="register">
+	<pre>
+	<label for="name">Name</label>
+	<input type="text" id="name"name="name"><br>
+	<label for="username">User Name</label>
+	<input type="text" id="username"name="username"><br>
+	<label for="password">Password</label>
+	<input type="password" id="password"name="password"><br>
+	<label for="address">Address</label>
+	<textarea rows="5" cols="20" name="address"></textarea><br>
+	<label for="country">Country</label>
+	<select id="country" name="country">
+		<option value="India">India</option>
+		<option value="USA">USA</option>
+		<option value="UK">UK</option>
+	</select><br>
+	<label for="gender">Gender</label>
+	<input type="radio" name="gender" value="Male">Male
+	<input type="radio" name="gender" value="Female">Female<br>
+	<label for="language">Language</label>
+	<input type="checkbox" name="language" value="English">English
+	<input type="checkbox" name="language" value="Hindi">Hindi<br>
+	<input type="submit" value="Register"> <input type="reset" value="Cancel">
+	</pre>
+	</form>
+	</div>
+</body>
+</html>
